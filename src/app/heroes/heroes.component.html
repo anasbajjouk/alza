@@ -1,0 +1,13 @@
+
+
+<h2>My Heroes</h2>
+
+<ul class="heroesList" >
+  <li class="col-lg-3 col-md-10 col-xs-12 col-sm-10" *ngFor = "let hero of heroes" routerLink="/details/{{hero.id}}" > 
+    <a>
+      <span class="badge">{{hero.id}}</span>{{hero.name}}           
+    </a>
+  </li>
+</ul>
+
+<app-hero-details [hero]="selectedHero"></app-hero-details>  

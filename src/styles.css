@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+body {
+    margin: 2em;
+}
+
+h1 {
+    color: #336680;
+    font-family: Helvetica, sans-serif;
+    font-size: 250%;
+    margin: 0 0 5px 10px; 
+}
+
+h2, h3 {
+    color: #444448;
+    font-family: Helvetica, sans-serif;
+    margin: 10px 0 10px 10px;
+    /*font-weight: lighter;*/
+}
+
+body, input[text], button {
+    color: #7a7a7a;
+    font-family: Arial, sans-serif;
+}
+
+.nav-link{
+    margin: 0 0 5px 0;
+    background-color: #EEE;
+
+}
+
+.nav-link:hover{
+    color: #EEE;
+    background-color: rgb(19, 154, 221);
+    position: relative;
+    left: 6px;
+}

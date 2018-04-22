@@ -1,0 +1,14 @@
+
+<h3 class="text-center">Top Heroes</h3>
+
+<div class="card-deck">
+  <a *ngFor="let hero of heroes" 
+      routerLink="/details/{{hero.id}}" 
+      class="card col-md-4 col-xs-12 col-sm-12 col-lg-4">
+
+    <div class="card-body myCard">
+      <h5 class="card-title text-center">{{hero.name}}</h5>
+    </div>
+  </a>
+</div>
+
